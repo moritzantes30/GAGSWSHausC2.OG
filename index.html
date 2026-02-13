@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GAG SWS Haus C 2.OG</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-04-treppenhaus">
+        <li class="text">04 Treppenhaus</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-04-wohnung-01-flur-01">
+        <li class="text">04 Wohnung 01 Flur 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-04-wohnung-01-flur02">
+        <li class="text">04 Wohnung 01 Flur02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-04-wohnung-01-kinderzimmer-01">
+        <li class="text">04 Wohnung 01 Kinderzimmer 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-04-wohnung-01-kinderzimmer-02">
+        <li class="text">04 Wohnung 01 Kinderzimmer 02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-04-wohnung-01-schlafzimmer-01">
+        <li class="text">04 Wohnung 01 Schlafzimmer 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-04-wohnung-01-kochen-essen-wohnen">
+        <li class="text">04 Wohnung 01 Kochen-Essen-Wohnen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-04-wohnung-02-flur-01">
+        <li class="text">04 Wohnung 02 Flur 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-04-wohnung-02-abstellraum-01">
+        <li class="text">04 Wohnung 02 Abstellraum 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-04-wohnung-02-schlafzimmer-01">
+        <li class="text">04 Wohnung 02 Schlafzimmer 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-04-wohnung-02-kochen-essen-wohnen-">
+        <li class="text">04 Wohnung 02 Kochen-Essen-Wohnen </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-04-wohnung-02-bad-01">
+        <li class="text">04 Wohnung 02 Bad 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-04-wohnung-03-flur-01">
+        <li class="text">04 Wohnung 03 Flur 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-04-wohnung-03-flur-02">
+        <li class="text">04 Wohnung 03 Flur 02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-04-wohnung-03-bad-01">
+        <li class="text">04 Wohnung 03 Bad 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-04-wohnung-03-kinderzimmer-01">
+        <li class="text">04 Wohnung 03 Kinderzimmer 01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-04-wohnung-03-kinderzimmer-02">
+        <li class="text">04 Wohnung 03 Kinderzimmer 02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-04-wohnung-03-kochen-essen-wohnen">
+        <li class="text">04 Wohnung 03 Kochen-Essen-Wohnen</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
