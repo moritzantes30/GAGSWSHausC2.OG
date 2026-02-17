@@ -1,62 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-04-treppenhaus",
-      "name": "04 Treppenhaus",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": -0.23605931184897777,
-        "pitch": 0.8258249231329753,
-        "fov": 1.3365071038314758
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.21403071172683674,
-          "pitch": 0.11038438350714941,
-          "rotation": 6.283185307179586,
-          "target": "7-04-wohnung-02-flur-01"
-        },
-        {
-          "yaw": -1.7652292612025704,
-          "pitch": 0.123807253939475,
-          "rotation": 0,
-          "target": "1-04-wohnung-01-flur-01"
-        },
-        {
-          "yaw": 1.4216515886608008,
-          "pitch": 0.09583504118026909,
-          "rotation": 0,
-          "target": "12-04-wohnung-03-flur-01"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-04-wohnung-01-flur-01",
-      "name": "04 Wohnung 01 Flur 01",
+      "id": "0-04-treppenhaus-",
+      "name": "04 Treppenhaus ",
       "levels": [
         {
           "tileSize": 256,
@@ -88,29 +34,89 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.005370243852290457,
-          "pitch": 0.0827093003777577,
+          "yaw": -1.8330119979999946,
+          "pitch": 0.007002510155993846,
           "rotation": 0,
-          "target": "2-04-wohnung-01-flur02"
+          "target": "1-04-wohnung-01-flur-01-"
         },
         {
-          "yaw": -3.0957049271400674,
-          "pitch": 0.11903600029192063,
+          "yaw": -0.24029058009367787,
+          "pitch": 0.08593395452956898,
           "rotation": 0,
-          "target": "0-04-treppenhaus"
+          "target": "8-04-wohnung-02-flur-01"
         },
         {
-          "yaw": -1.7002450158515252,
-          "pitch": 0.12549059340187618,
+          "yaw": 1.409827578055367,
+          "pitch": 0.008938673678414943,
+          "rotation": 0,
+          "target": "13-04-wohnung-03-flur-01"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-04-wohnung-01-flur-01-",
+      "name": "04 Wohnung 01 Flur 01 ",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07181019976318481,
+          "pitch": 0.07213044419813563,
+          "rotation": 0,
+          "target": "2-04-wohnung-01-flur-02"
+        },
+        {
+          "yaw": 1.4431629137858133,
+          "pitch": 0.13737674655643062,
+          "rotation": 0,
+          "target": "7-04-wohnung-01-bad-01"
+        },
+        {
+          "yaw": -1.6482246661025943,
+          "pitch": 0.08598246377210472,
           "rotation": 0,
           "target": "5-04-wohnung-01-schlafzimmer-01"
+        },
+        {
+          "yaw": 3.1369891918882438,
+          "pitch": 0.029065380633419124,
+          "rotation": 0,
+          "target": "0-04-treppenhaus-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-04-wohnung-01-flur02",
-      "name": "04 Wohnung 01 Flur02",
+      "id": "2-04-wohnung-01-flur-02",
+      "name": "04 Wohnung 01 Flur 02",
       "levels": [
         {
           "tileSize": 256,
@@ -142,28 +148,28 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.7821400307694581,
-          "pitch": 0.03671944660670157,
+          "yaw": -0.7926724535115692,
+          "pitch": 0.09485005030341043,
           "rotation": 0,
           "target": "4-04-wohnung-01-kinderzimmer-02"
         },
         {
-          "yaw": -1.3105050169090529,
-          "pitch": 0.06065177389298171,
+          "yaw": -1.4066937371941748,
+          "pitch": 0.08649733701509277,
           "rotation": 0,
           "target": "3-04-wohnung-01-kinderzimmer-01"
         },
         {
-          "yaw": 1.2017970057321978,
-          "pitch": 0.06756535942152198,
+          "yaw": 1.54192611993677,
+          "pitch": 0.10393747004298604,
           "rotation": 0,
           "target": "6-04-wohnung-01-kochen-essen-wohnen"
         },
         {
-          "yaw": -3.095748398966201,
-          "pitch": 0.11234308240773849,
+          "yaw": -3.102044009282931,
+          "pitch": 0.059363523752562486,
           "rotation": 0,
-          "target": "1-04-wohnung-01-flur-01"
+          "target": "1-04-wohnung-01-flur-01-"
         }
       ],
       "infoHotspots": []
@@ -202,10 +208,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.0265858984939946,
-          "pitch": 0.11763666925282834,
+          "yaw": -3.073879558246343,
+          "pitch": 0.037391052113697754,
           "rotation": 0,
-          "target": "2-04-wohnung-01-flur02"
+          "target": "2-04-wohnung-01-flur-02"
         }
       ],
       "infoHotspots": []
@@ -244,10 +250,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.1241859944480126,
-          "pitch": 0.08231411340758044,
+          "yaw": -2.1238121115773723,
+          "pitch": 0.025043758593831456,
           "rotation": 0,
-          "target": "2-04-wohnung-01-flur02"
+          "target": "2-04-wohnung-01-flur-02"
         }
       ],
       "infoHotspots": []
@@ -286,10 +292,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.0476983898900816,
-          "pitch": 0.020671016346113902,
+          "yaw": -2.012973848182817,
+          "pitch": 0.030536565382980996,
           "rotation": 0,
-          "target": "1-04-wohnung-01-flur-01"
+          "target": "1-04-wohnung-01-flur-01-"
         }
       ],
       "infoHotspots": []
@@ -328,16 +334,58 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.9166414482507665,
-          "pitch": 0.1206807100525431,
+          "yaw": 2.942231535049798,
+          "pitch": 0.08518141054307549,
           "rotation": 0,
-          "target": "2-04-wohnung-01-flur02"
+          "target": "2-04-wohnung-01-flur-02"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-04-wohnung-02-flur-01",
+      "id": "7-04-wohnung-01-bad-01",
+      "name": "04 Wohnung 01 Bad 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.0150392508499397,
+          "pitch": 0.04865330650276789,
+          "rotation": 0,
+          "target": "1-04-wohnung-01-flur-01-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-04-wohnung-02-flur-01",
       "name": "04 Wohnung 02 Flur 01",
       "levels": [
         {
@@ -370,34 +418,40 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.7218998536546195,
-          "pitch": 0.18666180438424895,
+          "yaw": 1.3886129057138312,
+          "pitch": 0.10190384803612673,
           "rotation": 0,
-          "target": "8-04-wohnung-02-abstellraum-01"
+          "target": "12-04-wohnung-02-bad-01"
         },
         {
-          "yaw": -0.5132175419987384,
-          "pitch": 0.16765413136759832,
-          "rotation": 5.497787143782138,
-          "target": "9-04-wohnung-02-schlafzimmer-01"
+          "yaw": -1.7663338592688707,
+          "pitch": -0.025728727314008992,
+          "rotation": 0,
+          "target": "9-04-wohnung-02-abstellraum-01"
         },
         {
-          "yaw": 0.5231596229608382,
-          "pitch": 0.2409932781322155,
+          "yaw": -0.5473424495612118,
+          "pitch": 0.052503909186333075,
           "rotation": 0,
-          "target": "10-04-wohnung-02-kochen-essen-wohnen-"
+          "target": "5-04-wohnung-01-schlafzimmer-01"
         },
         {
-          "yaw": 2.9501006871993427,
-          "pitch": 0.171803840441207,
+          "yaw": 0.4946624263519084,
+          "pitch": 0.07693196689103843,
           "rotation": 0,
-          "target": "0-04-treppenhaus"
+          "target": "11-04-wohnung-02-kochen-essen-wohnen"
+        },
+        {
+          "yaw": 2.940028240524178,
+          "pitch": -0.015682050665343894,
+          "rotation": 0,
+          "target": "0-04-treppenhaus-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-04-wohnung-02-abstellraum-01",
+      "id": "9-04-wohnung-02-abstellraum-01",
       "name": "04 Wohnung 02 Abstellraum 01",
       "levels": [
         {
@@ -430,16 +484,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.5799459090256533,
-          "pitch": 0.2889790226479043,
+          "yaw": 1.571335933496452,
+          "pitch": 0.15371673218909265,
           "rotation": 0,
-          "target": "7-04-wohnung-02-flur-01"
+          "target": "8-04-wohnung-02-flur-01"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9-04-wohnung-02-schlafzimmer-01",
+      "id": "10-04-wohnung-02-schlafzimmer-01",
       "name": "04 Wohnung 02 Schlafzimmer 01",
       "levels": [
         {
@@ -472,17 +526,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.3837410872067224,
-          "pitch": 0.15829005909827387,
+          "yaw": 2.436273219225371,
+          "pitch": 0.10285934438761224,
           "rotation": 0,
-          "target": "7-04-wohnung-02-flur-01"
+          "target": "8-04-wohnung-02-flur-01"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10-04-wohnung-02-kochen-essen-wohnen-",
-      "name": "04 Wohnung 02 Kochen-Essen-Wohnen ",
+      "id": "11-04-wohnung-02-kochen-essen-wohnen",
+      "name": "04 Wohnung 02 Kochen-Essen-Wohnen",
       "levels": [
         {
           "tileSize": 256,
@@ -514,23 +568,221 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.3294566801551007,
-          "pitch": 0.13510724650089045,
+          "yaw": 1.2700811309596283,
+          "pitch": 0.10990086887405681,
           "rotation": 0,
-          "target": "9-04-wohnung-02-schlafzimmer-01"
-        },
-        {
-          "yaw": 0.6596828652446796,
-          "pitch": 0.14559054344302247,
-          "rotation": 0,
-          "target": "7-04-wohnung-02-flur-01"
+          "target": "10-04-wohnung-02-schlafzimmer-01"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "11-04-wohnung-02-bad-01",
+      "id": "12-04-wohnung-02-bad-01",
       "name": "04 Wohnung 02 Bad 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9712928343064284,
+          "pitch": 0.03992727040924571,
+          "rotation": 0,
+          "target": "8-04-wohnung-02-flur-01"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-04-wohnung-03-flur-01",
+      "name": "04 Wohnung 03 Flur 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.3620953704463474,
+          "pitch": 0.005510384786038713,
+          "rotation": 0,
+          "target": "15-04-wohnung-03-bad-01"
+        },
+        {
+          "yaw": -0.024421507172906587,
+          "pitch": 0.05765384872443491,
+          "rotation": 0,
+          "target": "14-04-wohnung-03-flur-02"
+        },
+        {
+          "yaw": 1.5342390555451626,
+          "pitch": 0.12578546501861254,
+          "rotation": 0,
+          "target": "19-04-wohnung-03-schlafzimmer-01"
+        },
+        {
+          "yaw": 3.1289217959818654,
+          "pitch": 0.04083174987968974,
+          "rotation": 0,
+          "target": "0-04-treppenhaus-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-04-wohnung-03-flur-02",
+      "name": "04 Wohnung 03 Flur 02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.4067666824582421,
+          "pitch": 0.14978437382812793,
+          "rotation": 0,
+          "target": "4-04-wohnung-01-kinderzimmer-02"
+        },
+        {
+          "yaw": 0.15203760709512792,
+          "pitch": 0.13956417794710063,
+          "rotation": 0,
+          "target": "16-04-wohnung-03-kinderzimmer-01"
+        },
+        {
+          "yaw": 1.7551581637507558,
+          "pitch": 0.09440443301372703,
+          "rotation": 0,
+          "target": "13-04-wohnung-03-flur-01"
+        },
+        {
+          "yaw": -2.708068087374338,
+          "pitch": 0.03698390906347626,
+          "rotation": 0,
+          "target": "18-04-wohnung-03-kochen-essen-wohnen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-04-wohnung-03-bad-01",
+      "name": "04 Wohnung 03 Bad 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6847686924218674,
+          "pitch": 0.12247316357896132,
+          "rotation": 0,
+          "target": "13-04-wohnung-03-flur-01"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-04-wohnung-03-kinderzimmer-01",
+      "name": "04 Wohnung 03 Kinderzimmer 01",
       "levels": [
         {
           "tileSize": 256,
@@ -564,205 +816,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "12-04-wohnung-03-flur-01",
-      "name": "04 Wohnung 03 Flur 01",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.4069423343542269,
-          "pitch": 0.12392976015927104,
-          "rotation": 0,
-          "target": "14-04-wohnung-03-bad-01"
-        },
-        {
-          "yaw": -0.043861616684349514,
-          "pitch": 0.08607871728288252,
-          "rotation": 0,
-          "target": "13-04-wohnung-03-flur-02"
-        },
-        {
-          "yaw": 3.0753296205932905,
-          "pitch": 0.008423241081555233,
-          "rotation": 0,
-          "target": "0-04-treppenhaus"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-04-wohnung-03-flur-02",
-      "name": "04 Wohnung 03 Flur 02",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.37200592413375233,
-          "pitch": 0.22404892630905238,
-          "rotation": 0,
-          "target": "16-04-wohnung-03-kinderzimmer-02"
-        },
-        {
-          "yaw": 0.6256312353285995,
-          "pitch": 0.17957187702620736,
-          "rotation": 0,
-          "target": "15-04-wohnung-03-kinderzimmer-01"
-        },
-        {
-          "yaw": -2.6034118960698134,
-          "pitch": 0.05936346502803502,
-          "rotation": 0,
-          "target": "17-04-wohnung-03-kochen-essen-wohnen"
-        },
-        {
-          "yaw": 1.743285365990177,
-          "pitch": 0.14563728577852508,
-          "rotation": 0,
-          "target": "12-04-wohnung-03-flur-01"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-04-wohnung-03-bad-01",
-      "name": "04 Wohnung 03 Bad 01",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6333711085644769,
-          "pitch": 0.12688828962702559,
-          "rotation": 0,
-          "target": "12-04-wohnung-03-flur-01"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-04-wohnung-03-kinderzimmer-01",
-      "name": "04 Wohnung 03 Kinderzimmer 01",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.1121120579507497,
-          "pitch": 0.08909901995333769,
-          "rotation": 0,
-          "target": "13-04-wohnung-03-flur-02"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-04-wohnung-03-kinderzimmer-02",
+      "id": "17-04-wohnung-03-kinderzimmer-02",
       "name": "04 Wohnung 03 Kinderzimmer 02",
       "levels": [
         {
@@ -795,16 +849,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.9669816599366605,
-          "pitch": 0.044405273164228376,
+          "yaw": -1.975675754742273,
+          "pitch": -0.005827624973866463,
           "rotation": 0,
-          "target": "13-04-wohnung-03-flur-02"
+          "target": "14-04-wohnung-03-flur-02"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "17-04-wohnung-03-kochen-essen-wohnen",
+      "id": "18-04-wohnung-03-kochen-essen-wohnen",
       "name": "04 Wohnung 03 Kochen-Essen-Wohnen",
       "levels": [
         {
@@ -837,19 +891,61 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.9799028359531867,
-          "pitch": 0.10896761845386749,
+          "yaw": -2.9199417732195343,
+          "pitch": 0.10532691192588395,
           "rotation": 0,
-          "target": "13-04-wohnung-03-flur-02"
+          "target": "14-04-wohnung-03-flur-02"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-04-wohnung-03-schlafzimmer-01",
+      "name": "04 Wohnung 03 Schlafzimmer 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07866523953556559,
+          "pitch": 0.06789221976282,
+          "rotation": 0,
+          "target": "13-04-wohnung-03-flur-01"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "GAG SWS Haus C 2.OG",
+  "name": "GAG_SWS_HAUS_C_2.OG",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
